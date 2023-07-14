@@ -1,3 +1,0 @@
-/Users/meitu/Desktop/Example/OpenCVSample/Sources/pix_opencv/build/CMakeFiles/pix_opencv.dir
-/Users/meitu/Desktop/Example/OpenCVSample/Sources/pix_opencv/build/CMakeFiles/edit_cache.dir
-/Users/meitu/Desktop/Example/OpenCVSample/Sources/pix_opencv/build/CMakeFiles/rebuild_cache.dir

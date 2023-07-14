@@ -16,8 +16,6 @@ int main()
         return 1;
     }
 
-    cv::namedWindow("new", 1);
-
     cv::imshow("Display window", image);
     int k = cv::waitKey(0);
 
