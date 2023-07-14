@@ -1,0 +1,6 @@
+{
+    "cmake.configureSettings": {
+        "OpenCV_DIR_x86": "./library/x84_64/lib/cmake/opencv4",
+        "OpenCV_DIR_arm64": "./library/arm_64/lib/cmake/opencv4",
+    }
+}
