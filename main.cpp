@@ -1,23 +1,23 @@
 #include <iostream>
-#include <opencv2/core.hpp>
-#include <opencv2/highgui.hpp>
 #include <opencv2/opencv.hpp>
+#include "Quick.hpp"
 
 using namespace cv;
+using namespace std;
 
 int main()
 {
-    std::string image_path = "/Users/meitu/Pictures/OpenCV专用/opencv_front.png";
-    cv::Mat image = cv::imread(image_path, cv::IMREAD_COLOR);
-
+    std::string image_path = "/Users/meitu/Pictures/皇亲国戚/DSC_8470.png";
+    // Mat image = imread(image_path, IMREAD_GRAYSCALE);
+    Mat image = imread(image_path);
     if (image.empty())
     {
-        std::cerr << "Could not read the image: " << image_path << std::endl;
-        return 1;
+        std::cerr << "Could not read the image: " << std::endl;
+        return 0;
     }
 
-    cv::imshow("Display window", image);
-    int k = cv::waitKey(0);
+    Quick demo = Quick();
+    demo.show(image);
 
     return 0;
 }

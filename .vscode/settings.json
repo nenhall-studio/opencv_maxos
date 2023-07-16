@@ -4,6 +4,22 @@
         "OpenCV_DIR_arm64": "./library/arm_64/lib/cmake/opencv4",
     },
     "files.associations": {
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "__node_handle": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "queue": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "__split_buffer": "cpp",
+        "typeinfo": "cpp",
+        "iosfwd": "cpp"
+    },
+    "C_Cpp.autocomplete": "default",
+    "C_Cpp.intelliSenseEngine": "default",
 }
