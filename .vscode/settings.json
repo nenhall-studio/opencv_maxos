@@ -18,7 +18,8 @@
         "vector": "cpp",
         "__split_buffer": "cpp",
         "typeinfo": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "complex": "cpp"
     },
     "C_Cpp.autocomplete": "default",
     "C_Cpp.intelliSenseEngine": "default",
